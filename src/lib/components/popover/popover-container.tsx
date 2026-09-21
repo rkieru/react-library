@@ -71,7 +71,6 @@ function PopoverContainer({
   }, []);
 
   const handleTriggerClick = (event: React.MouseEvent) => {
-    console.log("trigger");
     trigger.props.onClick?.(event);
 
     const popover = popoverContainerRef.current;

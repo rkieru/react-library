@@ -12,6 +12,7 @@ function isInteractive<T extends Record<string, unknown>>(
 ) {
   const interactiveElemenents = [
     "Button",
+    "button",
     "a",
     "NavLink",
     "Link",
@@ -30,7 +31,22 @@ function isInteractive<T extends Record<string, unknown>>(
       ? componentType
       : componentType.displayName ?? componentType.name ?? "Unknown";
 
-  return interactiveElemenents.includes(name);
+  if (interactiveElemenents.includes(name)) {
+    return true;
+  }
+
+  const props = trigger.props as Record<string, unknown>;
+
+  return (
+    props.type === "button" ||
+    props.type === "submit" ||
+    props.type === "reset" ||
+    typeof props.onClick === "function" ||
+    typeof props.href === "string" ||
+    typeof props.role === "string" ||
+    typeof props.tabIndex === "number" ||
+    typeof props.value !== "undefined"
+  );
 }
 
 export default isInteractive;
