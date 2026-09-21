@@ -1,0 +1,36 @@
+@import url("./lib/styles/primitives.css");
+@import url("./lib/styles/colors.css");
+@import url("./lib/styles/theme.css");
+
+body {
+	padding: 1rem;
+	box-sizing: border-box;
+	background: var(--color-neutral-100);
+}
+
+.app-example-wrapper {
+	background: rgb(var(--primitive-color-white));
+	border: 1px solid var(--color-neutral-500);
+	padding: 1rem;
+	border-radius: 0.5rem;
+	display: grid;
+	align-items: flex-start;
+	justify-content: flex-start;
+	gap: 1rem;
+	grid-template-columns: var(--columns, repeat(3, 1fr));
+
+	&.rows-2 {
+		--columns: repeat(2, 1fr);
+	}
+
+	&.rows-3 {
+		--columns: repeat(3, 1fr);
+	}
+	&.rows-4 {
+		--columns: repeat(4, 1fr);
+	}
+
+	&.rows-10 {
+		--columns: repeat(9, 1fr);
+	}
+}

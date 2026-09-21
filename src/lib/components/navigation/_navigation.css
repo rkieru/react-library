@@ -1,0 +1,55 @@
+.navigation {
+	--navigation-padding-x: 1.5rem;
+	--navigation-padding-y: 1rem;
+	--navigation-border-radius: 0;
+	--navigation-inset: 0;
+
+	display: flex;
+	padding: var(--navigation-padding-y) var(--navigation-padding-x);
+	background: var(--navigation-background);
+	color: var(--navigation-text);
+	border-radius: var(--navigation-border-radius);
+	margin: var(--navigation-inset);
+	position: relative;
+
+	&.is-sticky {
+		position: sticky;
+		top: 0;
+	}
+
+	&.n-variant-inset {
+		--navigation-inset: 0.25rem;
+		--navigation-border-radius: 0.75rem;
+	}
+
+	&.n-color-primary {
+		--navigation-background: var(--color-primary-700);
+		--navigation-text: var(--color-primary-100);
+	}
+
+	&.n-color-support {
+		--navigation-background: var(--color-support-700);
+		--navigation-text: var(--color-support-100);
+	}
+
+	&.n-color-accent {
+		--navigation-background: var(--color-accent-700);
+		--navigation-text: var(--color-accent-100);
+	}
+
+	&.n-color-neutral {
+		--navigation-background: var(--color-neutral-100);
+		--navigation-text: var(--color-neutral-800);
+	}
+
+	& .navigation-toggle {
+		background: transparent;
+		border: none;
+		color: currentColor;
+		margin: 0;
+		padding: 0;
+		line-height: 1;
+		cursor: pointer;
+
+	}
+}

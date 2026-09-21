@@ -1,0 +1,103 @@
+:root {
+	font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	--primitive-color-primary: 35, 66, 103;
+	--primitive-color-support: 67, 92, 121;
+	--primitive-color-accent: 46, 85, 93;
+	--primitive-color-neutral: 211, 217, 225;
+	--primitive-color-white: 250, 252, 251;
+	--primitive-color-black: 32, 40, 32;
+
+	/** Primary **/
+	--primitive-color-primary-100: 211, 217, 225;
+	--primitive-color-primary-200: 167, 179, 194;
+	--primitive-color-primary-300: 123, 142, 164;
+	--primitive-color-primary-400: 79, 104, 133;
+	--primitive-color-primary-500: var(--primitive-color-primary);
+	--primitive-color-primary-600: 28, 53, 82;
+	--primitive-color-primary-700: 21, 40, 62;
+	--primitive-color-primary-800: 14, 26, 41;
+	--primitive-color-primary-900: 7, 13, 21;
+
+	/** Support **/
+	--primitive-color-support-100: 217, 222, 228;
+	--primitive-color-support-200: 180, 190, 201;
+	--primitive-color-support-300: 142, 157, 175;
+	--primitive-color-support-400: 105, 125, 148;
+	--primitive-color-support-500: var(--primitive-color-support);
+	--primitive-color-support-600: 54, 74, 97;
+	--primitive-color-support-700: 40, 55, 73;
+	--primitive-color-support-800: 27, 37, 48;
+	--primitive-color-support-900: 13, 18, 24;
+
+	/** Accent **/
+	--primitive-color-accent-100: 213, 221, 223;
+	--primitive-color-accent-200: 171, 187, 190;
+	--primitive-color-accent-300: 130, 153, 158;
+	--primitive-color-accent-400: 88, 119, 125;
+	--primitive-color-accent-500: var(--primitive-color-accent);
+	--primitive-color-accent-600: 37, 68, 74;
+	--primitive-color-accent-700: 28, 51, 56;
+	--primitive-color-accent-800: 18, 34, 37;
+	--primitive-color-accent-900: 9, 17, 19;
+
+	/** Neutral **/
+	--primitive-color-neutral-100: 237, 240, 243;
+	--primitive-color-neutral-200: 246, 247, 249;
+	--primitive-color-neutral-300: 229, 232, 237;
+	--primitive-color-neutral-400: 220, 225, 231;
+	--primitive-color-neutral-500: var(--primitive-color-neutral);
+	--primitive-color-neutral-600: 169, 174, 180;
+	--primitive-color-neutral-700: 127, 130, 135;
+	--primitive-color-neutral-800: 84, 87, 90;
+	--primitive-color-neutral-900: 42, 43, 45;
+
+
+	--color-primary-0:   rgba(var(--primitive-color-primary-0),   var(--color-opacity, 1));
+	--color-primary-50:  rgba(var(--primitive-color-primary-50),  var(--color-opacity, 1));
+	--color-primary-100: rgba(var(--primitive-color-primary-100), var(--color-opacity, 1));
+	--color-primary-200: rgba(var(--primitive-color-primary-200), var(--color-opacity, 1));
+	--color-primary-300: rgba(var(--primitive-color-primary-300), var(--color-opacity, 1));
+	--color-primary-400: rgba(var(--primitive-color-primary-400), var(--color-opacity, 1));
+	--color-primary-500: rgba(var(--primitive-color-primary-500), var(--color-opacity, 1));
+	--color-primary-600: rgba(var(--primitive-color-primary-600), var(--color-opacity, 1));
+	--color-primary-700: rgba(var(--primitive-color-primary-700), var(--color-opacity, 1));
+	--color-primary-800: rgba(var(--primitive-color-primary-800), var(--color-opacity, 1));
+	--color-primary-900: rgba(var(--primitive-color-primary-900), var(--color-opacity, 1));
+
+	--color-support-0:   rgba(var(--primitive-color-support-0),   var(--color-opacity, 1));
+	--color-support-50:  rgba(var(--primitive-color-support-50),  var(--color-opacity, 1));
+	--color-support-100: rgba(var(--primitive-color-support-100), var(--color-opacity, 1));
+	--color-support-200: rgba(var(--primitive-color-support-200), var(--color-opacity, 1));
+	--color-support-300: rgba(var(--primitive-color-support-300), var(--color-opacity, 1));
+	--color-support-400: rgba(var(--primitive-color-support-400), var(--color-opacity, 1));
+	--color-support-500: rgba(var(--primitive-color-support-500), var(--color-opacity, 1));
+	--color-support-600: rgba(var(--primitive-color-support-600), var(--color-opacity, 1));
+	--color-support-700: rgba(var(--primitive-color-support-700), var(--color-opacity, 1));
+	--color-support-800: rgba(var(--primitive-color-support-800), var(--color-opacity, 1));
+	--color-support-900: rgba(var(--primitive-color-support-900), var(--color-opacity, 1));
+
+	--color-accent-0:   rgba(var(--primitive-color-accent-0),   var(--color-opacity, 1));
+	--color-accent-50:  rgba(var(--primitive-color-accent-50),  var(--color-opacity, 1));
+	--color-accent-100: rgba(var(--primitive-color-accent-100), var(--color-opacity, 1));
+	--color-accent-200: rgba(var(--primitive-color-accent-200), var(--color-opacity, 1));
+	--color-accent-300: rgba(var(--primitive-color-accent-300), var(--color-opacity, 1));
+	--color-accent-400: rgba(var(--primitive-color-accent-400), var(--color-opacity, 1));
+	--color-accent-500: rgba(var(--primitive-color-accent-500), var(--color-opacity, 1));
+	--color-accent-600: rgba(var(--primitive-color-accent-600), var(--color-opacity, 1));
+	--color-accent-700: rgba(var(--primitive-color-accent-700), var(--color-opacity, 1));
+	--color-accent-800: rgba(var(--primitive-color-accent-800), var(--color-opacity, 1));
+	--color-accent-900: rgba(var(--primitive-color-accent-900), var(--color-opacity, 1));
+
+	--color-neutral-0:   rgba(var(--primitive-color-neutral-0),   var(--color-opacity, 1));
+	--color-neutral-50:  rgba(var(--primitive-color-neutral-50),  var(--color-opacity, 1));
+	--color-neutral-100: rgba(var(--primitive-color-neutral-100), var(--color-opacity, 1));
+	--color-neutral-200: rgba(var(--primitive-color-neutral-200), var(--color-opacity, 1));
+	--color-neutral-300: rgba(var(--primitive-color-neutral-300), var(--color-opacity, 1));
+	--color-neutral-400: rgba(var(--primitive-color-neutral-400), var(--color-opacity, 1));
+	--color-neutral-500: rgba(var(--primitive-color-neutral-500), var(--color-opacity, 1));
+	--color-neutral-600: rgba(var(--primitive-color-neutral-600), var(--color-opacity, 1));
+	--color-neutral-700: rgba(var(--primitive-color-neutral-700), var(--color-opacity, 1));
+	--color-neutral-800: rgba(var(--primitive-color-neutral-800), var(--color-opacity, 1));
+	--color-neutral-900: rgba(var(--primitive-color-neutral-900), var(--color-opacity, 1));
+
+}

@@ -1,0 +1,89 @@
+:root {
+	--primitive-color-red: 172, 16, 16;
+	--primitive-color-red-100: 238, 207, 207;
+	--primitive-color-red-200: 222, 159, 159;
+	--primitive-color-red-300: 205, 112, 112;
+	--primitive-color-red-400: 189, 64, 64;
+	--primitive-color-red-500: var(--primitive-color-red);
+	--primitive-color-red-600: 138, 13, 13;
+	--primitive-color-red-700: 103, 10, 10;
+	--primitive-color-red-800: 69, 6, 6;
+	--primitive-color-red-900: 34, 3, 3;
+
+	--primitive-color-orange: 235, 147, 23;
+	--primitive-color-orange-100: 251, 233, 209;
+	--primitive-color-orange-200: 247, 212, 162;
+	--primitive-color-orange-300: 243, 190, 116;
+	--primitive-color-orange-400: 239, 169, 69;
+	--primitive-color-orange-500: var(--primitive-color-orange);
+	--primitive-color-orange-600: 188, 118, 18;
+	--primitive-color-orange-700: 141, 88, 14;
+	--primitive-color-orange-800: 94, 59, 9;
+	--primitive-color-orange-900: 47, 29, 5;
+
+	--primitive-color-yellow: 244, 235, 64;
+	--primitive-color-yellow-100: 253, 251, 217;
+	--primitive-color-yellow-200: 251, 247, 179;
+	--primitive-color-yellow-300: 248, 243, 140;
+	--primitive-color-yellow-400: 246, 239, 102;
+	--primitive-color-yellow-500: var(--primitive-color-yellow);
+	--primitive-color-yellow-600: 195, 188, 51;
+	--primitive-color-yellow-700: 146, 141, 38;
+	--primitive-color-yellow-800: 98, 94, 26;
+	--primitive-color-yellow-900: 49, 47, 13;
+
+	--primitive-color-green: 94, 179, 104;
+	--primitive-color-green-100: 223, 240, 225;
+	--primitive-color-green-200: 191, 225, 195;
+	--primitive-color-green-300: 158, 209, 164;
+	--primitive-color-green-400: 126, 194, 134;
+	--primitive-color-green-500: var(--primitive-color-green);
+	--primitive-color-green-600: 75, 143, 83;
+	--primitive-color-green-700: 56, 107, 62;
+	--primitive-color-green-800: 38, 72, 42;
+	--primitive-color-green-900: 19, 36, 21;
+
+	--primitive-color-teal: 125, 215, 213;
+	--primitive-color-teal-100: 229, 247, 247;
+	--primitive-color-teal-200: 203, 239, 238;
+	--primitive-color-teal-300: 177, 231, 230;
+	--primitive-color-teal-400: 151, 223, 221;
+	--primitive-color-teal-500: var(--primitive-color-teal);
+	--primitive-color-teal-600: 100, 172, 170;
+	--primitive-color-teal-700: 75, 129, 128;
+	--primitive-color-teal-800: 50, 86, 85;
+	--primitive-color-teal-900: 25, 43, 43;
+
+	--primitive-color-blue: 62, 132, 193;
+	--primitive-color-blue-100: 216, 230, 243;
+	--primitive-color-blue-200: 178, 206, 230;
+	--primitive-color-blue-300: 139, 181, 218;
+	--primitive-color-blue-400: 101, 157, 205;
+	--primitive-color-blue-500: var(--primitive-color-blue);
+	--primitive-color-blue-600: 50, 106, 154;
+	--primitive-color-blue-700: 37, 79, 116;
+	--primitive-color-blue-800: 25, 53, 77;
+	--primitive-color-blue-900: 12, 26, 39;
+
+	--primitive-color-purple: 185, 79, 185;
+	--primitive-color-purple-100: 241, 220, 241;
+	--primitive-color-purple-200: 227, 185, 227;
+	--primitive-color-purple-300: 213, 149, 213;
+	--primitive-color-purple-400: 199, 114, 199;
+	--primitive-color-purple-500: var(--primitive-color-purple);
+	--primitive-color-purple-600: 148, 63, 148;
+	--primitive-color-purple-700: 111, 47, 111;
+	--primitive-color-purple-800: 74, 32, 74;
+	--primitive-color-purple-900: 37, 16, 37;
+
+	--primitive-color-pink: 227, 107, 199;
+	--primitive-color-pink-100: 249, 225, 244;
+	--primitive-color-pink-200: 244, 196, 233;
+	--primitive-color-pink-300: 238, 166, 221;
+	--primitive-color-pink-400: 233, 137, 210;
+	--primitive-color-pink-500: var(--primitive-color-pink);
+	--primitive-color-pink-600: 182, 86, 159;
+	--primitive-color-pink-700: 136, 64, 119;
+	--primitive-color-pink-800: 91, 43, 80;
+	--primitive-color-pink-900: 45, 21, 40;
+}
